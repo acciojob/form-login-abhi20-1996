@@ -4,6 +4,6 @@ function getFormvalue(event) {
 event.preventDefault();
 	let firstName=document.ElementById("fname").value;
 let lastName=document.ElementById("lname").value;
-	alert("firstName");
+	alert(firstName);
 }
 document.getElementById("btn").addEventListener("click", getFormvalue);
